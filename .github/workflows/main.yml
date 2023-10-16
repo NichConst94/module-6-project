@@ -20,7 +20,6 @@ jobs:
 
     - name: Install dependencies
       run: pip install requests
-      run: pip install python3
 
     - name: Add execute permissions
       run: chmod 777 app.py
