@@ -22,4 +22,7 @@ jobs:
       run: pip install requests
 
     - name: Add execute permissions
-      run: chmod 777 app.py
+      run: chmod 777 api/index.py
+
+    - name: Run Python script
+      run: api/index.py
