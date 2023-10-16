@@ -24,7 +24,7 @@ jobs:
     - name: Add execute permissions
       run: chmod 777 app.py
 
-    - name: Python Syntax Checker
+    - name: Pyflakes Syntax Checker
   # You may pin to the exact commit or the version.
-  # uses: cclauss/Find-Python-syntax-errors-action@90f67be9fb626b675a3971b1d08ab29851cb721f
-    uses: cclauss/Find-Python-syntax-errors-action@v0.2.0
+  # uses: lgeiger/pyflakes-action@b3972d29b811eabc23aa239eaaea9e1da5001f8d
+  uses: lgeiger/pyflakes-action@v1.0.1
