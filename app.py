@@ -20,5 +20,6 @@ def getPublicIPInfo(ip):
     print("Country: " + country)
     print("ISP: " + isp)
 
-iserIP = input("Enter an IP address or click ENTER to use your current IP: ")
+# userIP = input("Enter an IP address or click ENTER to use your current IP: ")
+userIP = 8.8.8.8
 getPublicIPInfo(userIP)
