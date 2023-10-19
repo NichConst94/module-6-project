@@ -21,5 +21,5 @@ def getPublicIPInfo(ip):
     print("ISP: " + isp)
 
 # userIP = input("Enter an IP address or click ENTER to use your current IP: ")
-userIP = $USER_INPUT
+userIP = "1.1.1.1"
 getPublicIPInfo(userIP)
