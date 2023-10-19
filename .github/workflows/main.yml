@@ -9,6 +9,9 @@ jobs:
   check-python-code:
     runs-on: ubuntu-latest
 
+    env:
+      USER_INPUT: "8.8.8.8"
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
