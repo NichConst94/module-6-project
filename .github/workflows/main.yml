@@ -25,4 +25,4 @@ jobs:
       run: chmod 777 app.py
 
     - name: Run Python script
-      run: echo "1.1.1.1" | python3 app.py
+      run: echo "208.67.222.222" | python3 app.py
